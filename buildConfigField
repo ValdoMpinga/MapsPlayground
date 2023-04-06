@@ -1,0 +1,3 @@
+defaultConfig {
+        buildConfigField "String", "google_maps_api_key", "\""+localProperties['google_maps_api_key']+"\""
+}
